@@ -1,0 +1,347 @@
+  
+
+/* ********************************************************************************************
+    Design for a width of 768px and above
+*********************************************************************************************** */
+
+@media only screen and (min-width: 768px) {
+    
+    /* SM - Floating
+    ======================================================================================= */
+    .pull-sm-left{
+        float: left !important;
+    }
+    .pull-sm-right{
+        float: right !important;
+    }
+    .text-sm-left{
+	text-align: left !important;
+    }
+    .text-sm-right{
+	text-align: right !important;
+    }
+    
+    /* Navbar
+    ======================================================================================= */
+    .navbar-collapse .navbar-nav.navbar-right{
+	margin-right: -30px;
+    }
+    .navbar-nav > li.userMenu > a{
+	padding-top: 8px;
+	padding-bottom: 8px;
+    }
+
+}
+
+/* ********************************************************************************************
+    Design for a width of 992px and above
+*********************************************************************************************** */
+
+@media only screen and (min-width: 992px) {
+    
+    
+        
+    /* MD - Floating
+    ======================================================================================= */
+    .pull-md-left{
+        float: left !important;
+    }
+    .pull-md-right{
+        float: right !important;
+    }
+    .text-sm-left{
+	text-align: left !important;
+    }
+    .text-md-right{
+	text-align: right !important;
+    }
+
+}
+
+/* ********************************************************************************************
+    Design for a width of 1200px and above
+*********************************************************************************************** */
+
+@media only screen and (min-width: 1200px) {
+    
+}
+
+/* ********************************************************************************************
+    Design for a width of 992px and below
+*********************************************************************************************** */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)  {
+    
+}
+
+/* ********************************************************************************************
+    Design for a width of 992px and below
+*********************************************************************************************** */
+
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+
+    .navbar .container{
+	width: auto;
+    }
+
+    
+}
+
+/* ********************************************************************************************
+    Design for a width of 1024px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+/* ********************************************************************************************
+    Design for a width of 991px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 991px) {
+
+    /* Homepage
+    ======================================================================================= */
+    
+        
+    /* Modal
+    ======================================================================================= */
+    .modal-dialog{
+        width: calc(100% - 21px);
+    }
+    
+}
+
+/* ********************************************************************************************
+    Design for a width of 767px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 767px) {   
+    
+    .v-grid-container{
+	display: block;
+    }
+    .v-grid{
+	float: none;
+	display: block;
+    }
+        
+    
+    /* Login
+    ======================================================================================= */
+    .login-content{
+	margin-bottom: 100px;
+    }
+    .login-form{
+	padding: 20px;
+    }
+        
+    
+    /* Navbar
+    ======================================================================================= */
+    .navbar-banner{
+	position: relative;
+	background-color: #000000;
+	border-bottom-color: #484848;
+    }
+    .navbar-nav .open .dropdown-menu > li > a,
+    .navbar-nav .open .dropdown-menu .dropdown-header{
+	padding: 9px 0px;
+    }
+    .navbar-nav .open .dropdown-menu{
+        position: absolute;
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 10px rgba(38, 59, 95, .20);
+        box-shadow: 0px 0px 10px rgba(38, 59, 95, .20);
+	border: 1px solid #cecece;
+    }
+    .nav-custom-right{
+	margin-top: 24px;
+	margin-bottom: 0px;
+    }
+    .nav-custom-right > li.separator{
+	margin-top: 2px;
+    }
+    .navbar-nav > li.userMenu > a{
+	padding-top: 3px;
+	/*padding-bottom: 3px;*/
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+	color: currentColor;
+    }
+    
+    .userMenu .dropdown-menu{
+	right: 10px;
+    }
+    
+    /* Banner
+    ======================================================================================= */
+    .banner-caption{
+	padding: 25px 0px;
+	text-align: center;
+    }
+    .banner-caption .heading{
+	font-size: 46px;
+    }
+    .banner-slider{
+	max-height: none;
+    }
+    .banner-slider .item{
+	height: auto;
+    }
+    .banner{
+	min-height: 300px;
+    }
+    .banner-slider .item-image,
+    .inner-banner .item-image{
+	height: 300px;
+	position: relative;
+	opacity: .40;
+	filter: alpha(opacity="40");
+    }
+    .inner-banner .item-image{
+	height: 250px;
+    }
+    .booking-form,
+    .inner-banner .banner-caption,
+    .banner-caption{
+	position: relative;
+	left: 0; 
+	right: 0; 
+	top: 0%; 
+	bottom: 0;
+	background-color: #151515;
+	-webkit-transform: translateY(0%); 
+		transform: translateY(0%); 
+	/* text-align: center; */	
+    }
+    .booking-box{
+	margin: 0px 0px 15px;
+    }
+    
+    .banner-slider.owl-theme .owl-dots{
+	bottom: 25%;
+    }
+    
+    .categoryBanner .item-image{
+	height: 300px;
+    }
+    
+    /* Accordion
+    ======================================================================================= */
+    .panel-body{
+	padding-left: 35px;
+	padding-right: 15px;
+    }
+    .list-box .list-img{
+	border-right: solid 0px #ddd;
+    }
+   
+}
+
+/* ********************************************************************************************
+    Design for a width of 639px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 639px) {
+
+
+
+}
+
+/* ********************************************************************************************
+    Design for a width of 520px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 520px) {
+
+    /* My Account
+    ======================================================================================= */    
+    
+    .booking-list .booking-image{
+	float: none;
+	max-width: none;
+    }
+    .booking-list .booking-content{
+	padding-left: 0px;
+    }
+    
+}
+
+/* ********************************************************************************************
+    Design for a width of 520px and below
+*********************************************************************************************** */
+
+@media only screen and (min-width: 480px) and (max-width: 520px)  {
+   
+    
+}
+
+/* ********************************************************************************************
+    Design for a width of 479px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 479px) {
+
+    /* Banner
+    ======================================================================================= */
+    .banner{
+	min-height: 250px;
+    }
+    .banner-caption .heading{
+	font-size: 30px;
+    }
+    .banner-slider .item-image{
+	height: 250px;
+    }
+    .inner-banner .item-image{
+	height: 200px;
+    }
+
+ 
+}
+
+/* ********************************************************************************************
+    Design for a width of 380px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 380px) {
+    
+    .nav-tabs > li > a,
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	background-repeat: no-repeat;
+	background-size: contain;
+    }
+    .nav-tabs > li > a{
+	padding: 6px 15px;
+	font-size: 13px;
+	width: 145px;
+	margin-right: -15px;
+	height: 30px;
+    }
+    
+    .banner-slider.owl-theme .owl-dots{
+	bottom: 30%;
+    }
+    
+    .document-list{
+	-webkit-columns: 1;
+	-moz-columns: 1;
+	columns: 1;
+    }
+    .document-list > li{
+	margin-bottom: 10px;
+    }
+  
+}
+
+/* ********************************************************************************************
+    Design for a width of 320px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 320px) {
+
+
+}
